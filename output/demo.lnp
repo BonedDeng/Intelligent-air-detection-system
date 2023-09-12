@@ -1,0 +1,13 @@
+".\output\main.obj",
+".\output\uart.obj",
+".\output\timer0.obj",
+".\output\soft_serial.obj",
+".\output\ad_da_pcf8591.obj",
+".\output\dht11.obj",
+".\output\lcd1602.obj",
+".\output\ringbuf.obj",
+".\output\button.obj",
+".\output\esp8266_ap.obj" 
+TO ".\output\demo" 
+
+PRINT(".\Listings\demo.map") REMOVEUNUSED 
